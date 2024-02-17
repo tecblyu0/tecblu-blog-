@@ -32,8 +32,14 @@ body {
 	text-align: center;
 }
 
-.bordersize {
+.bordersize1 {
 	border-style: double;
 	padding: 150px;
+	box-sizing: border-box;
+}
+
+.bordersize2 {
+	border-style: double;
+	padding: 80px;
 	box-sizing: border-box;
 }
