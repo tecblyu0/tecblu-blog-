@@ -1,0 +1,39 @@
+/* resets some default styles  */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    background-color: #FEFEED;
+	background: linear-gradient(to bottom, #ffdda8 4%,#fff1e1 48%,#fff1e1 48%,#fff1e1 48%);
+}
+
+/*classes for images and text*/
+
+.centerimage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.border-class {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textcenter {
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+.bordersize {
+	border-style: double;
+	padding: 150px;
+	box-sizing: border-box;
+}
